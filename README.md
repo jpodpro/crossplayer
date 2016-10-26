@@ -13,15 +13,15 @@ To compile CrossPlayer by yourself, make sure you have [Node.js](http://nodejs.o
 
 1) Clone the repository
 
-	`git clone https://github.com/jpodpro/crossplayer.git`
+`git clone https://github.com/jpodpro/crossplayer.git`
 
 2) Install Node dependencies
 
-	`cd crossplayer && npm install`
+`cd crossplayer && npm install`
 
 3) Run `grunt` to generate the JS files in the `dist` folder
 
-	`grunt`
+`grunt`
 
 Optionally:
 
@@ -29,32 +29,32 @@ Optionally:
 
 ## Usage
 
-- Include CrossPlayer javascript file
+1) Include CrossPlayer javascript file
 
-	```html
-    <script src="crossplayer.min.js">
-    ```
+```html
+<script src="crossplayer.min.js">
+```
 
-- Create a DOM element for the player with unique ID:
+2) Create a DOM element for the player with unique ID:
   
-  ```html
-  <div id="unique-id"></div>
-  ```
+```html
+<div id="unique-id"></div>
+```
   
-- Init CrossPlayer
+3) Init CrossPlayer
 
-	```javascript
-    var player = new CrossPlayer({elementId:'unique-id'});
-    ```
+```javascript
+var player = new CrossPlayer({elementId:'unique-id'});
+```
     
-- Play any SoundCloud, YouTube, DropBox or direct web file:
+4) Play any SoundCloud, YouTube, DropBox or direct web file:
 
-	```javascript
-    player.playUrl("https://soundcloud.com/swingsetsounds/al-green-love-happiness-jpod-remix");
-    player.playUrl("https://www.youtube.com/watch?v=sJ5Of6z08Fs");
-    player.playUrl("https://www.dropbox.com/s/basht6kygq2a54u/JPOD%20-%20BlissCoast%206%20-%20Cape%20%26%20Kalimba.mp3?dl=0");
-    player.playUrl("http://jpodtbc.com/music/short.mp3");
-    ```
+```javascript
+player.playUrl("https://soundcloud.com/swingsetsounds/al-green-love-happiness-jpod-remix");
+player.playUrl("https://www.youtube.com/watch?v=sJ5Of6z08Fs");
+player.playUrl("https://www.dropbox.com/s/basht6kygq2a54u/JPOD%20-%20BlissCoast%206%20-%20Cape%20%26%20Kalimba.mp3?dl=0");
+player.playUrl("http://jpodtbc.com/music/short.mp3");
+```
     
 ## Options
 
