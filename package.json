@@ -1,0 +1,31 @@
+{
+    "name": "CrossPlayer",
+    "version": "0.1.0",
+    "description": "JavaScript API designed for audio playback of SoundCloud, YouTube, DropBox and direct web links.",
+    "main": "dist/crossplayer.js",
+    "keywords": [
+        "player",
+        "music",
+        "audio",
+        "soundcloud",
+        "youtube",
+        "dropbox",
+        "mp3",
+        "mobile"
+    ],
+    "author": {
+        "name": "Jason Danielson"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jpodpro/crossplayer.git"
+    },
+    "license": "MIT",
+    "devDependencies":
+    {
+        "grunt" : "*",
+        "grunt-contrib-concat" : "*",
+        "grunt-contrib-uglify" : "*",
+        "grunt-contrib-watch" : "*"
+    }
+}
