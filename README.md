@@ -4,7 +4,7 @@ JavaScript API for playing SoundCloud, YouTube, DropBox audio files or direct we
 
 ## Location of files
 
-- Example demo is in the [example/index.html](https://github.com/jpodpro/crossplayer/tree/master/example) folder.
+- Example demo is the [example/index.html](https://github.com/jpodpro/crossplayer/tree/master/example/index.html) file.
 - Compiled and minified JS files are in the [dist/](https://github.com/jpodpro/crossplayer/tree/master/dist) folder.
 - Source JS files are in the [src/](https://github.com/jpodpro/crossplayer/tree/master/src) folder.
 
